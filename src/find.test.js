@@ -8,6 +8,6 @@ test("Less than -500", () => {
     expect(find([10, 50, -20, -10, 100], isLessThanMinusFiveHundred)).toEqual(undefined);
 });
 
-test("Less than -500", () => {
+test("String", () => {
     expect(find("abcDeFgHI".split(""), isUpperCase)).toEqual("D");
 });
